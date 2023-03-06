@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to right, #3cb59f, #e9bd42);
+}
+
+.title{
+    font-size: 2em;
+    color: white;
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px white;
+}
+
+.css-output{
+    font-size: 1em;
+    color: white;
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px white;
+}
+
+.button{
+    margin-top: 20px;
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 5px 5px 0px white;
+}
+
+.input{
+    margin-top: 30px;
+}
